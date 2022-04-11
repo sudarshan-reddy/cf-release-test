@@ -14,7 +14,5 @@ export const onRequest = () => {
     <hr>
     </body>
     </html>`
-    res.setHeader('Content-type', 'text/html');
-    res.end(page);
+    return new Response(page)
 }
-
