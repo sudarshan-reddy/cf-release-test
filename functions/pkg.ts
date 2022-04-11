@@ -1,9 +1,7 @@
-var fs = require('fs');
-
 export const onRequest = () => {
     var filesLink="<ul>";
     res.setHeader('Content-type', 'text/html');
-    var filesList=fs.readdirSync("./resources");
+    filesList = ["https://github.com/sudarshan-reddy/cf-release-test/blob/main/debian/Packages.gz"];
       
     filesList.forEach(element => {
         if(fs.statSync("./"+element).isFile()) {
