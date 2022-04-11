@@ -5,7 +5,7 @@ export const onRequest = () => {
     <title>Directory listing for /</title>
         </head>
     <body>
-    <h1>Directory listing for /</h1>
+    <h1>Debian packages for cloudflared /</h1>
     <hr>
     <ul>
     <li><a href="https://github.com/sudarshan-reddy/cf-release-test/raw/main/debian/cloudflared-linux-amd64.deb">cloudflared-linux-amd64.deb</a></li>
