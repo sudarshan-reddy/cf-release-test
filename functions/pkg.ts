@@ -14,5 +14,5 @@ export const onRequest = () => {
     <hr>
     </body>
     </html>`
-    return new Response(page)
+    return new Response(page, {headers: { "Content-Type": "text/html"}`)
 }
